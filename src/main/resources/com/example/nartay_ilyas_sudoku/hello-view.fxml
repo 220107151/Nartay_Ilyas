@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="500.0" style="-fx-background-color: #7d7fa7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nartay_ilyas_sudoku.HelloController">
+   <children>
+      <VBox alignment="CENTER" layoutX="71.0" layoutY="-3.0" prefHeight="484.0" prefWidth="432.0">
+         <children>
+            <Label fx:id="time" text="00:00:00">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="sudoku" fitHeight="366.0" fitWidth="395.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Untitled.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Button fx:id="start" layoutX="14.0" layoutY="40.0" mnemonicParsing="false" onAction="#letstart" prefHeight="25.0" prefWidth="77.0" text="Start" />
+      <TextField fx:id="arr11" alignment="CENTER" layoutX="124.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr12" alignment="CENTER" layoutX="160.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr13" alignment="CENTER" layoutX="197.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr14" alignment="CENTER" layoutX="234.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr15" alignment="CENTER" layoutX="270.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr16" alignment="CENTER" layoutX="306.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr17" alignment="CENTER" layoutX="344.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr18" alignment="CENTER" layoutX="380.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr21" alignment="CENTER" layoutX="124.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr22" alignment="CENTER" layoutX="160.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr23" alignment="CENTER" layoutX="197.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr24" alignment="CENTER" layoutX="234.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr25" alignment="CENTER" layoutX="270.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr26" alignment="CENTER" layoutX="306.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr27" alignment="CENTER" layoutX="344.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr28" alignment="CENTER" layoutX="380.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr19" alignment="CENTER" layoutX="416.0" layoutY="91.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr29" alignment="CENTER" layoutX="416.0" layoutY="127.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr31" alignment="CENTER" layoutX="124.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr32" alignment="CENTER" layoutX="160.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr33" alignment="CENTER" layoutX="197.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr34" alignment="CENTER" layoutX="234.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr35" alignment="CENTER" layoutX="270.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr36" alignment="CENTER" layoutX="306.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr37" alignment="CENTER" layoutX="344.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr38" alignment="CENTER" layoutX="380.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr39" alignment="CENTER" layoutX="416.0" layoutY="164.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr41" alignment="CENTER" layoutX="124.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr42" alignment="CENTER" layoutX="160.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr43" alignment="CENTER" layoutX="197.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr44" alignment="CENTER" layoutX="234.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr45" alignment="CENTER" layoutX="270.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr46" alignment="CENTER" layoutX="306.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr47" alignment="CENTER" layoutX="344.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr48" alignment="CENTER" layoutX="380.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr49" alignment="CENTER" layoutX="416.0" layoutY="201.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr51" alignment="CENTER" layoutX="124.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr52" alignment="CENTER" layoutX="160.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr53" alignment="CENTER" layoutX="197.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr54" alignment="CENTER" layoutX="234.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr55" alignment="CENTER" layoutX="270.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr56" alignment="CENTER" layoutX="306.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr57" alignment="CENTER" layoutX="344.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr58" alignment="CENTER" layoutX="380.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr59" alignment="CENTER" layoutX="416.0" layoutY="237.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr61" alignment="CENTER" layoutX="124.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr62" alignment="CENTER" layoutX="161.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr63" alignment="CENTER" layoutX="197.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr64" alignment="CENTER" layoutX="234.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr65" alignment="CENTER" layoutX="270.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr66" alignment="CENTER" layoutX="306.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr67" alignment="CENTER" layoutX="344.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr68" alignment="CENTER" layoutX="380.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr69" alignment="CENTER" layoutX="416.0" layoutY="274.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr71" alignment="CENTER" layoutX="124.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr72" alignment="CENTER" layoutX="160.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr73" alignment="CENTER" layoutX="197.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr74" alignment="CENTER" layoutX="234.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr75" alignment="CENTER" layoutX="270.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr76" alignment="CENTER" layoutX="306.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr77" alignment="CENTER" layoutX="344.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr78" alignment="CENTER" layoutX="380.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr79" alignment="CENTER" layoutX="416.0" layoutY="311.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr81" alignment="CENTER" layoutX="124.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr82" alignment="CENTER" layoutX="160.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr83" alignment="CENTER" layoutX="197.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr84" alignment="CENTER" layoutX="234.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr85" alignment="CENTER" layoutX="270.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr86" alignment="CENTER" layoutX="306.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr87" alignment="CENTER" layoutX="344.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr88" alignment="CENTER" layoutX="380.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr89" alignment="CENTER" layoutX="416.0" layoutY="347.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr91" alignment="CENTER" layoutX="124.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr92" alignment="CENTER" layoutX="161.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr93" alignment="CENTER" layoutX="197.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr94" alignment="CENTER" layoutX="234.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr95" alignment="CENTER" layoutX="270.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr96" alignment="CENTER" layoutX="306.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr97" alignment="CENTER" layoutX="344.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr98" alignment="CENTER" layoutX="380.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="arr99" alignment="CENTER" layoutX="416.0" layoutY="384.0" prefHeight="34.5" prefWidth="34.5" style="-fx-border-color: #ffffff;">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+         <padding>
+            <Insets bottom="-5.0" left="-5.0" right="-5.0" top="-5.0" />
+         </padding>
+      </TextField>
+      <VBox alignment="CENTER" layoutX="3.0" layoutY="71.0" prefHeight="181.0" prefWidth="100.0" spacing="5.0">
+         <children>
+            <RadioButton fx:id="easy" mnemonicParsing="false" selected="true" text="   Easy   " textFill="WHITE" />
+            <RadioButton fx:id="med" mnemonicParsing="false" text="Medium" textFill="WHITE" />
+            <RadioButton fx:id="hard" contentDisplay="CENTER" mnemonicParsing="false" text="  Hard   " textFill="WHITE" />
+         </children>
+      </VBox>
+      <Button fx:id="showans" layoutX="27.0" layoutY="262.0" mnemonicParsing="false" onAction="#showans" text="Show answer" visible="false" />
+      <Label fx:id="BestTime" layoutX="442.0" layoutY="14.0" text="Record" />
+   </children>
+</AnchorPane>
